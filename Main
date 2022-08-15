@@ -1,0 +1,17 @@
+package com.company;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Lütfen Kg'nizi giriniz: ");
+        double a = scan.nextDouble();
+        System.out.println("Lütfen Boyunuzu cm cinsinden giriniz: ");
+        double b = scan.nextDouble();
+        double BodyIndex = a/(b*b);
+        System.out.println("Vücut kitle İndekiniz: "+ BodyIndex);
+	// write your code here
+    }
+}
